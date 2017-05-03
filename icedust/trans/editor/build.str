@@ -2,7 +2,7 @@ module editor/build
 
 imports // backends
 
-  generating/java
+//  generating/java
   generating/webdsl
 
 imports // functions

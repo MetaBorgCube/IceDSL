@@ -9,3 +9,16 @@ imports
   editor/pp
   editor/outline
   editor/services
+
+rules
+
+  icedust-language-extension-fixed-config = ! // example configuration
+    ConfigSection([
+      WebDSLBackend(None()),
+      LanguageFeatures([
+        DerivedRelations(),
+        Inlines(),
+        Strategies(),
+        SubTyping()
+      ])
+    ])
